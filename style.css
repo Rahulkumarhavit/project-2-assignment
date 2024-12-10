@@ -57,7 +57,7 @@ nav {
 
 /* Hero Section Styling */
 .hero {
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +169,7 @@ nav {
     }
 }
 
-/* Glowing Overlay Effect */
+/* Overlay Effect */
 .hero::before {
     content: "";
     position: absolute;
@@ -331,7 +331,7 @@ footer p {
 /* blog */
 .blog-content {
     max-width: 800px;
-    margin: 8rem auto 3rem auto; /* Adjust margin for spacing */
+    margin: 8rem auto 3rem auto;
     padding: 2rem;
     line-height: 1.8;
     text-align: justify;
@@ -367,7 +367,6 @@ footer p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Video Container */
 .video-container {
     text-align: center;
     margin: 2rem 0;
