@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/a7cecc8ba0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Tech Blog</h1>
+            <p>Sharing my knowledge, learnings, and experiences as a passionate software developer. Explore topics like
+                <strong>React</strong>, <strong>Express</strong>, and much more.</p>
+            <a href="#blogs" class="btn">Explore Blogs</a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blogs" class="blogs">
+        <h2>My Blogs</h2>
+        <div class="blog-container">
+            <div class="blog-card">
+                <h3>Understanding React</h3>
+                <p>React is a JavaScript library for building user interfaces. Learn how components, state, and props
+                    work to make development faster and more efficient.</p>
+                <a href="./react-blog.html">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>Exploring Express.js</h3>
+                <p>Express is a minimal Node.js web framework. Discover how to create REST APIs and backend logic using
+                    its powerful features.</p>
+                <a href="./express-blog.html">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, Rahul Kumar is a seasoned software developer with extensive experience in product development. With a
+            deep understanding of frontend, backend, and database technologies, he is excels at creating innovative and
+            scalable solutions. Beyond coding, he is passionate about sharing knowledge and empowering others in the
+            engineering community through insightful blogs and technical content. Known for a commitment to learning and
+            collaboration, Rahul continually strives to inspire and be inspired in the ever-evolving tech landscape.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2024 My Tech Blog</p>
+    </footer>
+</body>
+
+</html>
